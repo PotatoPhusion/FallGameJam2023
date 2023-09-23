@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Fall Game Jam 2023"
+run/main_scene="res://Overworld.tscn"
 config/features=PackedStringArray("4.1", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+MouseCursorController="*res://mouse_cursor_controller.gd"
 
 [display]
 
